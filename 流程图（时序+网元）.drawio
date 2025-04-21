@@ -1,0 +1,194 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.13">
+  <diagram name="第 1 页" id="JOg5mvIZpuCUIqA0trxU">
+    <mxGraphModel dx="1384" dy="1445" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nlw8csDKpeIQE77mOcq4-2" value="客户端设备" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="120" y="150" width="100" height="850" as="geometry" />
+        </mxCell>
+        <mxCell id="nlw8csDKpeIQE77mOcq4-3" value="边缘接入网关" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="300" y="150" width="100" height="850" as="geometry" />
+        </mxCell>
+        <mxCell id="nlw8csDKpeIQE77mOcq4-4" value="调度控制器" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="490" y="150" width="100" height="850" as="geometry" />
+        </mxCell>
+        <mxCell id="nlw8csDKpeIQE77mOcq4-5" value="算力路由器" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="660" y="150" width="100" height="850" as="geometry" />
+        </mxCell>
+        <mxCell id="nlw8csDKpeIQE77mOcq4-9" value="意图请求" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="169.81034482758616" y="240" as="sourcePoint" />
+            <mxPoint x="349.5000000000001" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nlw8csDKpeIQE77mOcq4-14" value="标准化服务请求" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="350.1503448275862" y="364.40999999999997" as="sourcePoint" />
+            <mxPoint x="529.8400000000001" y="364.40999999999997" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nlw8csDKpeIQE77mOcq4-15" value="跨域资源池" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="840" y="150" width="100" height="850" as="geometry" />
+        </mxCell>
+        <mxCell id="nlw8csDKpeIQE77mOcq4-16" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="350" y="230" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nlw8csDKpeIQE77mOcq4-11" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=1;" parent="nlw8csDKpeIQE77mOcq4-16" target="nlw8csDKpeIQE77mOcq4-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="10" as="sourcePoint" />
+            <mxPoint x="60" y="40" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="60" y="10" />
+              <mxPoint x="60" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nlw8csDKpeIQE77mOcq4-13" value="用户意图识别" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="nlw8csDKpeIQE77mOcq4-16" vertex="1">
+          <mxGeometry x="60" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nlw8csDKpeIQE77mOcq4-20" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="540" y="354.40999999999997" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nlw8csDKpeIQE77mOcq4-21" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=1;" parent="nlw8csDKpeIQE77mOcq4-20" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="10" as="sourcePoint" />
+            <mxPoint y="60" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="60" y="10" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nlw8csDKpeIQE77mOcq4-22" value="三维资源映射" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="nlw8csDKpeIQE77mOcq4-20" vertex="1">
+          <mxGeometry x="60" y="10" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cRJ-wzFRXu-1Q_v7k6FQ-1" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="540" y="414.40999999999997" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cRJ-wzFRXu-1Q_v7k6FQ-2" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="cRJ-wzFRXu-1Q_v7k6FQ-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="10" as="sourcePoint" />
+            <mxPoint y="60" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="60" y="10" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cRJ-wzFRXu-1Q_v7k6FQ-3" value="业务模态匹配" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="cRJ-wzFRXu-1Q_v7k6FQ-1">
+          <mxGeometry x="60" y="10" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cRJ-wzFRXu-1Q_v7k6FQ-4" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="540" y="474.40999999999997" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cRJ-wzFRXu-1Q_v7k6FQ-5" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="cRJ-wzFRXu-1Q_v7k6FQ-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="10" as="sourcePoint" />
+            <mxPoint y="60" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="60" y="10" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cRJ-wzFRXu-1Q_v7k6FQ-6" value="网域筛选绑定" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="cRJ-wzFRXu-1Q_v7k6FQ-4">
+          <mxGeometry x="60" y="10" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cRJ-wzFRXu-1Q_v7k6FQ-7" value="流表策略下发" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="nlw8csDKpeIQE77mOcq4-4">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="530.0003448275862" y="554.41" as="sourcePoint" />
+            <mxPoint x="709.6900000000002" y="554.41" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cRJ-wzFRXu-1Q_v7k6FQ-8" value="资源调度适配" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="710.0003448275862" y="584.41" as="sourcePoint" />
+            <mxPoint x="889.6900000000002" y="584.41" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cRJ-wzFRXu-1Q_v7k6FQ-9" value="状态同步与服务反馈" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;dashPattern=8 8;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="889.6900000000004" y="624.41" as="sourcePoint" />
+            <mxPoint x="540" y="624" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cRJ-wzFRXu-1Q_v7k6FQ-10" value="服务响应" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;dashPattern=8 8;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="529.8400000000004" y="664.41" as="sourcePoint" />
+            <mxPoint x="170.14999999999998" y="664.41" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cRJ-wzFRXu-1Q_v7k6FQ-11" value="状态同步与异常检测" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;dashPattern=8 8;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="889.8400000000004" y="714.41" as="sourcePoint" />
+            <mxPoint x="540" y="714" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cRJ-wzFRXu-1Q_v7k6FQ-15" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="350" y="290" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cRJ-wzFRXu-1Q_v7k6FQ-16" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="cRJ-wzFRXu-1Q_v7k6FQ-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="10" as="sourcePoint" />
+            <mxPoint y="60" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="60" y="10" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cRJ-wzFRXu-1Q_v7k6FQ-17" value="业务特征提取" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="cRJ-wzFRXu-1Q_v7k6FQ-15">
+          <mxGeometry x="60" y="10" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cRJ-wzFRXu-1Q_v7k6FQ-19" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="540" y="710" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cRJ-wzFRXu-1Q_v7k6FQ-20" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="cRJ-wzFRXu-1Q_v7k6FQ-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="10" as="sourcePoint" />
+            <mxPoint y="60" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="60" y="10" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cRJ-wzFRXu-1Q_v7k6FQ-21" value="触发模态迁移" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="cRJ-wzFRXu-1Q_v7k6FQ-19">
+          <mxGeometry x="60" y="10" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cRJ-wzFRXu-1Q_v7k6FQ-22" value="流表策略下发" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="nlw8csDKpeIQE77mOcq4-4">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="530.0003448275862" y="790" as="sourcePoint" />
+            <mxPoint x="709.6900000000002" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cRJ-wzFRXu-1Q_v7k6FQ-23" value="资源调度适配" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="710.0003448275862" y="820" as="sourcePoint" />
+            <mxPoint x="889.6900000000002" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cRJ-wzFRXu-1Q_v7k6FQ-24" value="状态同步与服务反馈" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;dashPattern=8 8;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="890.3700000000003" y="850" as="sourcePoint" />
+            <mxPoint x="540" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cRJ-wzFRXu-1Q_v7k6FQ-25" value="服务响应" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;dashPattern=8 8;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="529.8400000000004" y="880" as="sourcePoint" />
+            <mxPoint x="170.14999999999998" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cRJ-wzFRXu-1Q_v7k6FQ-27" value="资源回收" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="nlw8csDKpeIQE77mOcq4-15">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="540" y="920" as="sourcePoint" />
+            <mxPoint x="709.6900000000002" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cRJ-wzFRXu-1Q_v7k6FQ-28" value="状态同步" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;dashPattern=8 8;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="890.3700000000003" y="960" as="sourcePoint" />
+            <mxPoint x="540" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
