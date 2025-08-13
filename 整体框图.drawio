@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0" version="28.1.0">
   <diagram name="第 1 页" id="UtYWZ6VY_bLjQFV6rBiL">
-    <mxGraphModel dx="2046" dy="943" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1789" dy="744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -58,11 +58,11 @@
             <mxPoint x="363" y="379" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DdBs0TKVWvFZz85IPrxo-23" value="基于模态预测结果足量分配&lt;div&gt;（满足初期峰值资源需求）&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="360.5" y="335" width="170" height="40" as="geometry" />
+        <mxCell id="DdBs0TKVWvFZz85IPrxo-23" value="基于pod组件&lt;div&gt;实现业务依赖发现&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="385.5" y="335" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="DdBs0TKVWvFZz85IPrxo-25" value="基于业务模态识别资源需求&lt;div&gt;（服务等级标签、历史模态特征映射）&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="30" y="335" width="230" height="40" as="geometry" />
+        <mxCell id="DdBs0TKVWvFZz85IPrxo-25" value="基于轻量化网络指针周期性收集网络实时信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="15" y="340" width="260" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DdBs0TKVWvFZz85IPrxo-27" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#dae8fc;strokeColor=none;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -76,11 +76,11 @@
             <mxPoint x="723" y="379" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DdBs0TKVWvFZz85IPrxo-29" value="跨域亲和性与距离矩阵&lt;div&gt;（定义亲和因子与代价）&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="DdBs0TKVWvFZz85IPrxo-29" value="构建拓扑域选择与&lt;div&gt;资源微调的分层动作机制&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="730" y="334" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="DdBs0TKVWvFZz85IPrxo-30" value="设计多目标迁移函数&lt;div&gt;（综合权重与不同亲和因子）&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="510" y="335" width="180" height="40" as="geometry" />
+        <mxCell id="DdBs0TKVWvFZz85IPrxo-30" value="融合物理拓扑状态、实时负载指标&lt;div&gt;与任务依赖特征的状态空间&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="500" y="335" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="DdBs0TKVWvFZz85IPrxo-35" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#dae8fc;strokeColor=none;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -94,11 +94,11 @@
             <mxPoint x="1141.75" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DdBs0TKVWvFZz85IPrxo-37" value="搭建Overlay网络与eBPF重定向机制&lt;div&gt;（引擎内部实现地址重定向）&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1150" y="335" width="210" height="40" as="geometry" />
+        <mxCell id="DdBs0TKVWvFZz85IPrxo-37" value="事件驱动通道通过物理-业务异常&lt;div&gt;关联动态优化&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1155" y="335" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="DdBs0TKVWvFZz85IPrxo-38" value="预热影子实例增量切换流量&lt;div&gt;（金丝雀式流量权重调整）&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="879.5" y="335" width="170" height="40" as="geometry" />
+        <mxCell id="DdBs0TKVWvFZz85IPrxo-38" value="周期识别劣化与碎片化趋势，&lt;div&gt;重新评估最优位置&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="874.5" y="335" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="DdBs0TKVWvFZz85IPrxo-44" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="649.25" y="210" width="106.25" height="80.26" as="geometry" />
@@ -109,7 +109,7 @@
         <mxCell id="DdBs0TKVWvFZz85IPrxo-43" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;问题剖析&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=1;points=[];autosize=1;strokeColor=none;fillColor=none;movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="DdBs0TKVWvFZz85IPrxo-44" vertex="1">
           <mxGeometry x="6.249999999999996" y="-11.044776119402986" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="DdBs0TKVWvFZz85IPrxo-48" value="基于网络模态预测的云原生跨域透明执行机制" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+        <mxCell id="DdBs0TKVWvFZz85IPrxo-48" value="基于双维拓扑感知的雾计算智能调度机制" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="570.75" y="564" width="269.5" height="46" as="geometry" />
         </mxCell>
         <mxCell id="DdBs0TKVWvFZz85IPrxo-50" value="" style="group" parent="1" vertex="1" connectable="0">
@@ -154,7 +154,7 @@
         <mxCell id="DdBs0TKVWvFZz85IPrxo-45" value="增强调度器感知能力" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="DdBs0TKVWvFZz85IPrxo-49" vertex="1">
           <mxGeometry x="350" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="DdBs0TKVWvFZz85IPrxo-46" value="优化部署位置" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="DdBs0TKVWvFZz85IPrxo-49" vertex="1">
+        <mxCell id="DdBs0TKVWvFZz85IPrxo-46" value="基于拓扑优化部署位置" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="DdBs0TKVWvFZz85IPrxo-49" vertex="1">
           <mxGeometry x="740" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="DdBs0TKVWvFZz85IPrxo-47" value="保障部署长期最优" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="DdBs0TKVWvFZz85IPrxo-49" vertex="1">
@@ -212,7 +212,7 @@
             <mxPoint x="-20" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="00Jz2YDxhiU1h5STOUax-1" value="分层强化学习" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="00Jz2YDxhiU1h5STOUax-1" value="分层强化学习" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="709.5" y="390.5" width="170" height="60" as="geometry" />
         </mxCell>
       </root>
