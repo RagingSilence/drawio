@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0" version="28.1.0">
   <diagram name="第 1 页" id="UtYWZ6VY_bLjQFV6rBiL">
-    <mxGraphModel dx="1789" dy="744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2233" dy="1088" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19,7 +19,7 @@
         <mxCell id="DdBs0TKVWvFZz85IPrxo-2" value="传统静态调度局限" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="230.5" y="130" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DdBs0TKVWvFZz85IPrxo-3" value="微服务时延敏感" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+        <mxCell id="DdBs0TKVWvFZz85IPrxo-3" value="微服务时延大" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="620.5" y="130" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DdBs0TKVWvFZz85IPrxo-4" value="单次部署非长期最优" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
@@ -28,10 +28,10 @@
         <mxCell id="DdBs0TKVWvFZz85IPrxo-10" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;&quot;&gt;研究内容&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="645.5" y="60" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="DdBs0TKVWvFZz85IPrxo-11" value="传统调度未考虑业务依赖" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+        <mxCell id="DdBs0TKVWvFZz85IPrxo-11" value="业务依赖建模缺位" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="320" y="260" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DdBs0TKVWvFZz85IPrxo-12" value="传统调度未考虑网络指标" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+        <mxCell id="DdBs0TKVWvFZz85IPrxo-12" value="网络指标感知缺失" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="140" y="260" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DdBs0TKVWvFZz85IPrxo-14" value="部署时未考虑拓扑关系" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
@@ -40,10 +40,10 @@
         <mxCell id="DdBs0TKVWvFZz85IPrxo-15" value="部署时未考虑网络情况" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="709.5" y="260" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DdBs0TKVWvFZz85IPrxo-16" value="雾环境网络波动大" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+        <mxCell id="DdBs0TKVWvFZz85IPrxo-16" value="雾环境链路波动" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="920.5" y="260" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DdBs0TKVWvFZz85IPrxo-17" value="微服务拓扑发生变化" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+        <mxCell id="DdBs0TKVWvFZz85IPrxo-17" value="微服务拓扑漂移" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="1099.5" y="260" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DdBs0TKVWvFZz85IPrxo-21" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#dae8fc;strokeColor=none;" parent="1" edge="1">
